@@ -1,0 +1,80 @@
+﻿<rememberMe "Remember me on this computer">
+<userPlaceholder placeholder:"Username or email">
+<passwordPlaceholder placeholder:"Password">
+<loginButton value:"Login">
+
+
+<headerGreetings "Ivan Ivanov">
+<Administration "Administration">
+<Questions "Questions">
+<Interview "Interview">
+<ManageUserRights "Manage user rights">
+<EditCategories "Edit categories">
+<EditProjects "Edit projects">
+<AddQuestion "Add question ">
+<ReviewEditQuestions "Review/Edit questions">
+<CreateInterview "Create interview">
+<ReportResults "Report results">
+
+
+<instructionWelcomeHeader "Welcome!">
+<instructionGreetings "Welcome to eTest. Before you start with the questions, please read the following information:">
+<instructionLine1 "Total duration of the test will be approximately 35 minutes with no chance of pause.">
+<instructionLine2 "The questions are separated in following categories: C#, HTML и Логически.">
+<instructionLine3 "For every question you have exactly separate time, the rest of it doesn't transfer to the next questions.">
+<instructionLine4 "When time is out, without any valid answer, the question is accepted for invalid.">
+<instructionLine5 "You start when you click on the button ""start"" below the page.">
+<goodluckText "Good luck!">
+
+
+<interviews_listHeader "Current interviews">
+<interviews_listTableName "Name">
+<interviews_listTableDate "Date">
+<interviews_listTableAction "Action">
+<interviews_listTableInterview_1 "Interview 1">
+<interviews_listTableDate_1 "21/08/2015">
+<interviews_listTableInterview_2 "Interview 2">
+<interviews_listTableDate_2 "22/08/2015">
+<interviews_listStartButton "Start interview">
+
+
+<question_1_Header "Question 1">
+<question_1_category "Category : C#">
+<question_1_condition "Write a program that tells how many times the string 'the' appears in a given text.">
+
+
+<question_2_Header "Question 2">
+<question_2_category "Category : C#">
+<question_2_condition "Which of the following conditions isn't right?">
+<question_2_Rbutton1 "The implementation of the virtual method in the basic class 'can' be changed (overriden) by a member of his inheritor.">
+<question_2_Rbutton2 "The implementation of the virtual method in the basic class 'have to' be changed (overriden) by a member of his inheritor.">
+<question_2_Rbutton3 "The implementation of the virtual method in the basic class 'can't' be changed (overriden) by a member of his inheritor.">
+
+
+<question_3_Header "Question 3">
+<question_3_category "Category : HTML">
+<question_3_condition "Modify the following code, in such a way to...">
+
+
+<question_4_Header "Question 4">
+<question_4_category "Category : Logical">
+<question_4_condition "Something about a Tom & Jerry in a labyrinth...">
+
+
+<underConstructionHeader "OOPS..">
+<underConstructionDescriptionHeader "The page you are attending to open is under construction.">
+
+<titleCongrats "Congratulations!">
+<congratsHeader "Congratulations!">
+<finishText "You have finished the test.">
+
+
+<user "Ivan Ivanov">
+<exitButton "Exit">
+<abortTestButton "Abort Test">
+<startTestButton "Start Test">
+<backButton value:"Back">
+<backButton_2 "Back">
+<submitTestButton "Submit">
+<homeButton value:"Home">
+<create_newButton "Create new">

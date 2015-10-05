@@ -1,0 +1,6 @@
+﻿{
+    "locales": ["bg","en-US"],
+  "default_locale": "en-US",
+  "resources": ["{{locale}}/web.txt"],
+  "mode": "multi"
+}

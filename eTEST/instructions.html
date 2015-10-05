@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Instructions</title>
+
+    <meta name="defaultLanguage" content="bg">
+    <meta name="availableLanguages" content="bg, en-US">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="localization" href="locales/browser.json" />
+    <script type="text/javascript" src="js/l20n.js"></script>
+    <script type="text/javascript" src="js/convertToOtherLang.js"></script>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <a href="main.html">
+            <img src="pictures/LogoWhite.png" style="vertical-align:middle" hspace="25" />
+        </a>
+
+        <i>eTest</i>
+
+        <div id="languageBut">
+            <a class="flag bg" style="visibility:hidden;">
+                <img src="pictures/flag_bg.png" height="27" width="27" id="flagbg" onclick="changeLang('bg');" />
+            </a>
+            <a class="flag en" style="visibility:hidden;">
+                <img src="pictures/flag_en.png" height="27" width="27" id="flagen" onclick="changeLang('en');" />
+            </a>
+        </div>
+
+        <div id="User">
+            <div id="userName" data-l10n-id="user" style="display:inline-block;"></div>
+
+            <form action="index.html" method="get" style="display:inline-block">
+                <button style="border-radius:2px; cursor:pointer" data-l10n-id="exitButton"></button>
+            </form>
+        </div>
+    </div>
+
+    <h2 data-l10n-id="instructionWelcomeHeader"></h2>
+
+    <section class="instrtext">
+        <p>
+        <p data-l10n-id="instructionGreetings"></p>
+        <ul>
+            <li data-l10n-id="instructionLine1"></li>
+            <li data-l10n-id="instructionLine2"></li>
+            <li data-l10n-id="instructionLine3"></li>
+            <li data-l10n-id="instructionLine4"></li>
+            <li data-l10n-id="instructionLine5"></li>
+        </ul>
+        <br />
+        <center><b data-l10n-id="goodluckText"></b></center>
+    </section>
+
+    <table style="margin: auto;">
+        <tr>
+            <td>
+                <br>
+                <form style="vertical-align:middle" action="question1.html" method="get">
+                    <section class="sectionButtonZ">
+                        <button class="ButtonZ" style="cursor:pointer" data-l10n-id="startTestButton"></button>
+                    </section>
+                </form>
+            </td>
+        <tr>
+            <td>
+                <br>
+                <form style="vertical-align:middle" action="main.html" method="get">
+                    <section class="sectionButtonZ">
+                        <button class="ButtonZ" style="cursor:pointer" data-l10n-id="abortTestButton"></button>
+                    </section>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <footer></footer>
+
+</body>
+</html>

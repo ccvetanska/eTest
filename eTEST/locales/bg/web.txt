@@ -1,0 +1,83 @@
+﻿<rememberMe "Запомни ме на този компютър">
+<userPlaceholder placeholder:"Име или имейл">
+<passwordPlaceholder placeholder:"Парола">
+<loginButton value:"Влез">
+
+<headerGreetings "Иван Иванов">
+<Administration "Администрация">
+<Questions "Въпроси">
+<Interview "Интервю">
+<ManageUserRights "Промени потребителските права">
+<EditCategories "Промени категориите">
+<EditProjects "Промени проектите">
+<AddQuestion "Добави въпрос">
+<ReviewEditQuestions "Прегледай/промени въпросите">
+<CreateInterview "Създай интервю">
+<ReportResults "Докладвай резултати">
+
+
+<instructionWelcomeHeader "Добре дошли!">
+<instructionGreetings "Добре дошли в eTest. Преди да стартирате въпросите, моля запознайте се със следната информация:">
+<instructionLine1 "Общата продължителност на теста ще бъде приблизително 35 минути без възможност за пауза.">
+<instructionLine2 "Въпросите Ви са разделени в следните категории: C#, HTML и Логически.">
+<instructionLine3 "За всеки въпрос има заделено точно определено време, остатъкът от което не се прехвърля на следващите въпроси.">
+<instructionLine4 "При изтичане на времето без да е валидиран отговор въпросът се приема за невалиден.">
+<instructionLine5 "Започва непосредствено след натискането на бутона start в долната част на страницата.">
+<goodluckText "Успех!">
+
+
+<interviews_listHeader "Текущи интервюта">
+<interviews_listTableName "Име">
+<interviews_listTableDate "Дата">
+<interviews_listTableAction "Действие">
+<interviews_listTableInterview_1 "Интервю 1">
+<interviews_listTableDate_1 "21.08.2015">
+<interviews_listTableInterview_2 "Интервю 2">
+<interviews_listTableDate_2 "22.08.2015">
+<interviews_listStartButton "Започни интервю">
+
+
+<question_1_Header "Въпрос 1">
+<question_1_category "Категория : C#">
+<question_1_condition "Напишете програма която да извежда колко често се среща стрингът 'the' в даден текст.">
+
+
+<question_2_Header "Въпрос 2">
+<question_2_category "Категория : C#">
+<question_2_condition "Кое от следните твърдения е вярно за виртуалните методи?">
+<question_2_Rbutton1 "Имплементацията на виртуален метод в базовия клас може да бъде променена (overriden) от член на негов наследник.">
+<question_2_Rbutton2 "Имплементацията на виртуален метод в базовия клас трябва да бъде променена (overriden) от член на негов наследник.">
+<question_2_Rbutton3 "Имплементацията на виртуален метод в базовия клас не може да бъде променена (overriden) от член на негов наследник.">
+
+
+<question_3_Header "Въпрос 3">
+<question_3_category "Категория : HTML">
+<question_3_condition "Модифицирайте следния код, така че...">
+
+<question_4_Header "Въпрос 4">
+<question_4_category "Категория : Логически">
+<question_4_condition "Котка гони мишка в показания лабиринт. Точките съответстват на стаи, а всяка линия - на коридор, свързващ две стаи.
+                    Отначало котката е в точка а, а мишката — в g. Двете се придвижват последователно, като
+                    първа е котката. Всеки ход е придвижване по коридор в лабиринта. Котката побеждава, ако достигне
+                    върха, в който е мишката.
+                    Предложете печеливша стратегия за котката.">
+
+
+<underConstructionHeader "УУПС..">
+<underConstructionDescriptionHeader "Страницата до която се опитвате да достигнете е в неизправност.">
+
+
+<titleCongrats "Поздравления!">
+<congratsHeader "Поздравления!">
+<finishText "Вие успешно приключихте теста.">
+
+
+<user "Иван Иванов">
+<exitButton "Изход">
+<homeButton value:"Начало">
+<abortTestButton "Прекрати теста">
+<startTestButton "Старт">
+<backButton value:"Назад">
+<backButton_2 "Назад">
+<submitTestButton "Изпрати">
+<create_newButton "Създай ново">

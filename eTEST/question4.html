@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Question 4</title>
+
+    <meta charset="utf-8" />
+    <meta name="defaultLanguage" content="bg">
+    <meta name="availableLanguages" content="bg, en-US">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="localization" href="locales/browser.json" />
+    <script type="text/javascript" src="js/progressBar.js"></script>
+    <script type="text/javascript" src="js/countdown.js"></script>
+    <script type="text/javascript" src="js/l20n.js"></script>
+    <script type="text/javascript" src="js/convertToOtherLang.js"></script>
+
+</head>
+
+<body>
+
+    <article>
+        <div class="header">
+            <a href="main.html">
+                <img src="pictures/LogoWhite.png" style="vertical-align:middle" hspace="25" />
+            </a>
+
+            <i>eTest</i>
+
+            <div id="languageBut">
+                <a class="flag bg" style="visibility:hidden;">
+                    <img src="pictures/flag_bg.png" height="27" width="27" id="flagbg" onclick="changeLang('bg');" />
+                </a>
+                <a class="flag en" style="visibility:hidden;">
+                    <img src="pictures/flag_en.png" height="27" width="27" id="flagen" onclick="changeLang('en');" />
+                </a>
+            </div>
+
+            <div id="User">
+                <div id="userName" data-l10n-id="user" style="display:inline-block;"></div>
+
+                <form action="index.html" method="get" style="display:inline-block">
+                    <button style="border-radius:2px; cursor:pointer" data-l10n-id="exitButton"></button>
+                </form>
+            </div>
+        </div>
+
+        <form method="post" action="index.html">
+
+            <h2 data-l10n-id="question_4_Header"></h2>
+
+            <div class="meter">
+                <span style="width: 75%"></span>
+            </div>
+
+            <section class="text">
+                <div id="category">
+                    <table class="table">
+                        <tr>
+                            <td style="margin:auto"><b data-l10n-id="question_4_category"> Категория : Логически </b></td>
+                        </tr>
+                    </table>
+                </div>
+                <p data-l10n-id="question_4_condition"></p>
+            </section>
+
+            <section class="countdownTimer"><div id="counter" class="timer"></div></section>
+
+            <div class="field" style="padding-bottom:10px">
+                <div id="picturefield">
+                    <br />
+                    <img src="pictures/picture1.jpg" style="vertical-align:middle" hspace="25" />
+                    <br />
+                    <textarea name="inputTextBox" rows=5 cols=50></textarea>
+                </div>
+            </div>
+
+            <span id="counter" class="timer"></span> <!--When a text is hooked in a span element, you can style it with CSS, or manipulate it with JavaScript-->
+        </form>
+    </article>
+    <table style="margin: auto;">
+        <tr>
+            <td>
+                <br>
+                <form style="vertical-align:middle" action="congrats.html" method="get">
+                    <section class="sectionButtonZ">
+                        <button class="ButtonZ" style="cursor:pointer" data-l10n-id="submitTestButton"></button>
+                    </section>
+                </form>
+            </td>
+        <tr>
+            <td>
+                <br>
+                <form style="vertical-align:middle" action="main.html" method="get">
+                    <section class="sectionButtonZ">
+                        <button class="ButtonZ" style="cursor:pointer" data-l10n-id="abortTestButton"></button>
+                    </section>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <script type="text/javascript">
+        countdown(8);
+    </script>
+
+    <footer></footer>
+
+</body>
+</html>

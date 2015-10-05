@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>eTest App</title>
+
+    <meta charset="utf-8" />
+    <meta name="defaultLanguage" content="bg">
+    <meta name="availableLanguages" content="bg, en-US">
+    <link rel="localization" href="locales/browser.json" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/l20n.js"></script>
+    <script type="text/javascript" src="js/convertToOtherLang.js"></script>
+    <!--<script type="text/javascript">
+        var defaultLang = 'bg';
+        function loadLocale() {
+            document.l10n.requestLocales(defaultLang);
+        }
+        document.l10n.ready(loadLocale);
+    </script>-->
+
+    <script type="text/javascript">
+    window.onload = function () {
+        document.l10n.requestLocales('bg');
+    }
+    </script>
+
+    <script type="text/javascript">
+        window.document.onload = function () {
+            document.l10n.requestLocales('bg');
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="header">
+        <a href="main.html">
+            <img src="pictures/LogoWhite.png" style="vertical-align:middle" hspace="25" />
+        </a>
+        <i>eTest</i>
+
+        <div id="userName">
+            <table cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr>
+                        <td align="center" valign="bottom">
+                            <div data-l10n-id="headerGreetings"></div>
+                        </td>
+                        <td align="left" valign="middle">
+                            <form style="vertical-align:middle" action="index.html" method="get">
+                                <button style="border-radius:2px; cursor:pointer" data-l10n-id="exitButton"></button>
+                            </form>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="languageBut">
+            <table cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr>
+                        <td align="center" valign="middle">
+                            <form style="vertical-align:middle">
+                                <a style="background-color:transparent">
+                                    <img src="pictures/flag_bg.png" height="27" width="27" id="flagbg" onclick="convertToBg();" />
+                                </a>
+                            </form>
+                        </td>
+
+                        <td align="center" valign="middle">
+                            <form style="vertical-align:middle">
+                                <a style="background-color:transparent">
+                                    <img src="pictures/flag_en.png" height="27" width="27" id="flagen" onclick="convertToEn();" />
+                                </a>
+                            </form>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="menuBody">
+        <nav class="vertical">
+            <ul>
+                <li>
+                    Administration
+                    <div>
+                        <br />
+                        <ul>
+                            <li><a href="UnderConstruction.html">Manage user rights</a></li>
+                            <li><a href="UnderConstruction.html">Edit categories</a></li>
+                            <li><a href="UnderConstruction.html">Edit projects</a></li>
+                        </ul>
+                    </div>
+                    <br />
+                </li>
+                <li>
+                    Questions
+                    <div>
+                        <br />
+                        <ul>
+                            <li><a href="UnderConstruction.html">Add question</a></li>
+                            <li><a href="UnderConstruction.html">Review/Edit questions</a></li>
+                        </ul>
+                    </div>
+                    <br />
+                </li>
+                <li>
+                    Interview
+                    <div>
+                        <br />
+                        <ul>
+                            <li><a href="interviews_list.html">Create interview</a></li>
+                            <li><a href="UnderConstruction.html">Report results</a></li>
+                        </ul>
+                    </div>
+                    <br />
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <footer></footer>
+
+</body>
+</html>

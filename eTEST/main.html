@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>eTest</title>
+
+    <meta name="defaultLanguage" content="bg">
+    <meta name="availableLanguages" content="bg, en-US">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="localization" href="locales/browser.json" />
+    <script type="text/javascript" src="js/l20n.js"></script>
+    <script type="text/javascript" src="js/convertToOtherLang.js"></script>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <a href="main.html">
+            <img src="pictures/LogoWhite.png" style="vertical-align:middle" hspace="25" />
+        </a>
+
+        <i>eTest</i>
+
+        <div id="languageBut">
+            <a class="flag bg" style="visibility:hidden;">
+                <img src="pictures/flag_bg.png" height="27" width="27" id="flagbg" onclick="changeLang('bg');" />
+            </a>
+            <a class="flag en" style="visibility:hidden;">
+                <img src="pictures/flag_en.png" height="27" width="27" id="flagen" onclick="changeLang('en');" />
+            </a>
+        </div>
+
+        <div id="User">
+            <div id="userName" data-l10n-id="user" style="display:inline-block;"></div>
+
+            <form action="index.html" method="get" style="display:inline-block">
+                <button style="border-radius:2px; cursor:pointer" data-l10n-id="exitButton"></button>
+            </form>
+        </div>
+    </div>
+
+    <div class="menuBody">
+        <nav class="vertical">
+            <ul>
+                <li>
+                    <p data-l10n-id="Administration"></p>
+                    <div>
+                        <br />
+                        <ul>
+                            <li><a href="UnderConstruction.html" data-l10n-id="ManageUserRights"></a></li>
+                            <li><a href="UnderConstruction.html" data-l10n-id="EditCategories"></a></li>
+                            <li><a href="UnderConstruction.html" data-l10n-id="EditProjects"></a></li>
+                        </ul>
+                    </div>
+                    <br />
+                </li>
+                <li>
+                    <p data-l10n-id="Questions"></p>
+                    <div>
+                        <br />
+                        <ul>
+                            <li><a href="UnderConstruction.html" data-l10n-id="AddQuestion"></a></li>
+                            <li><a href="UnderConstruction.html" data-l10n-id="ReviewEditQuestions"></a></li>
+                        </ul>
+                    </div>
+                    <br />
+                </li>
+                <li>
+                    <p data-l10n-id="Interview"></p>
+                    <div>
+                        <br />
+                        <ul>
+                            <li><a href="interviews_list.html" data-l10n-id="CreateInterview"></a></li>
+                            <li><a href="UnderConstruction.html" data-l10n-id="ReportResults"></a></li>
+                        </ul>
+                    </div>
+                    <br />
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <footer></footer>
+
+</body>
+</html>

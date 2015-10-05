@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Under Construction</title>
+
+    <meta charset="utf-8" />
+    <meta name="defaultLanguage" content="bg">
+    <meta name="availableLanguages" content="bg, en-US">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="localization" href="locales/browser.json" />
+    <script type="text/javascript" src="js/progressBar.js"></script>
+    <script type="text/javascript" src="js/countdown.js"></script>
+    <script type="text/javascript" src="js/l20n.js"></script>
+    <script type="text/javascript" src="js/convertToOtherLang.js"></script>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <a href="main.html">
+            <img src="pictures/LogoWhite.png" style="vertical-align:middle" hspace="25" />
+        </a>
+
+        <i>eTest</i>
+
+        <div id="languageBut">
+            <a class="flag bg" style="visibility:hidden;">
+                <img src="pictures/flag_bg.png" height="27" width="27" id="flagbg" onclick="changeLang('bg');" />
+            </a>
+            <a class="flag en" style="visibility:hidden;">
+                <img src="pictures/flag_en.png" height="27" width="27" id="flagen" onclick="changeLang('en');" />
+            </a>
+        </div>
+
+        <div id="User">
+            <div id="userName" data-l10n-id="user" style="display:inline-block;"></div>
+
+            <form action="index.html" method="get" style="display:inline-block">
+                <button style="border-radius:2px; cursor:pointer" data-l10n-id="exitButton"></button>
+            </form>
+        </div>
+    </div>
+
+    <h2 data-l10n-id="underConstructionHeader"></h2>
+
+    <h3 data-l10n-id="underConstructionDescriptionHeader"></h3>
+
+    <img src="pictures/sorry-emoticon.jpg" alt="ERROR">
+
+    <table style="margin: auto;">
+        <tr>
+            <td>
+                <br>
+                <a href="main.html"><input style="cursor:pointer" type="button" name="commit" data-l10n-id="backButton" value="" /></a>
+            </td>
+        <tr>
+    </table>
+
+    <footer></footer>
+
+</body>
+</html>
